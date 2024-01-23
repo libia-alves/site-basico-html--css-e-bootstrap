@@ -10,12 +10,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>Meu site</title>
+  <title>Mitologia Grega</title>
 </head>
 
 <body>
 
-  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-light" style="z-index: 900;">
+
+
+  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 900;">
     <div class="container-fluid col-11 m-auto">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,37 +30,42 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="#">Deuses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Divisões</a>
           </li>
+         
+
+
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+  
       </div>
     </div>
   </nav>
+<br><br><br>
 
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-5  ">Mitologia Grega</h1>
+    <br>
+    <img src="img/banner.jpeg" height="400" width="650" >
+    <br>
+    <br>
+    <p class="lead"> Mitologia grega é o conjunto de histórias, mitos e lendas pertencentes à religião da Grécia Antiga. A mitologia grega continuou fazendo parte da cultura ocidental através de referências literárias, filosóficas, científicas e artísticas.</p>
+  </div>
+</div>
 
-  <br><br><br>
+
+<br>
+
+<div class="col-11 m-auto">
+  <h2 class="text-center">Deuses</h2>
+
+</div>
+
+
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -67,13 +74,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="../meu site/img/last-spirit_3840x2160.jpg" alt="Primeiro Slide">
+        <img class="d-block w-100" src="img/16F3ECA0-476B-4D1A-9B4D-FFB7B230DFB3.jpeg" alt="Primeiro Slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+        <img class="d-block w-100" src="img/last-spirit_3840x2160.jpg" alt="Segundo Slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+        <img class="d-block w-100" src="img/olimpianos.jpeg" alt="Terceiro Slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -86,38 +93,91 @@
     </a>
   </div>
 
+  <br><br><br>
 
-
-
+  <div class="col-11 m-auto">
+    <h2 class="text-center">Divisões</h2>
+  
+  </div>
+  
 
   <div class="row row-cols-1 row-cols-md-3 g-4 col-11 margin-auto">
     <div class="col">
       <div class="card">
-        <img src="../meu site/img/16F3ECA0-476B-4D1A-9B4D-FFB7B230DFB3.jpeg" class="card-img-top" alt="...">
+        <img src="img/medusa.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
+          <h5 class="card-title">Bestas e mostrons</h5>
+          <p class="card-text"> Entre as figuras estao: Medusa, Minotauro, Fenix....</p>
         </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Veja mais
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/medusa.jpeg" class="card-img-top" alt="...">
+                  <p class="text-center"> Medusa é uma figura lendária da mitologia grega, conhecida por sua natureza peculiar e trágica. Descrita como uma das Górgonas, seres monstruosos com cabelos de serpentes e o poder de transformar aqueles que olham diretamente para ela em pedra, Medusa destaca-se em narrativas clássicas antigas.
+                 </p>
+  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="img/zoodiaco.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Estrelas e constelações</h5>
+          <p class="card-text">Zoodiaco.</p>
+        </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Veja mais
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/zoodiaco.jpeg" class="card-img-top" alt="...">
+                  <p class="text-center"> A palavra grega para constelações era katasterismoi . Destes, os doze signos cujos caminhos se cruzam com o nascer do sol eram conhecidos como zodiakos (o zodíaco) ou zodiakos kyrklos (círculo de pequenos animais). As constelações, conforme descritas na mitologia grega, eram principalmente heróis e bestas favorecidos pelos deuses que receberam um lugar entre as estrelas como um memorial de seus feitos. Eles eram considerados espíritos semidivinos - entidades vivas e conscientes que caminhavam pelos céus.
+                    As principais fontes dos mitos das estrelas gregas foram os poemas astronômicos perdidos de Hesíodo e Ferecides e trabalhos posteriores de Pseudo-Eratóstenes, Arato e Higino .
+                 </p>
+  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="img/zeus.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content.</p>
+          <h5 class="card-title">Olimpianos</h5>
+          <p class="card-text"> Dentre os quais temos: Zeus, Hera, Poseidon, Atena, Ares...</p>
         </div>
 
         <!-- Button trigger modal -->
@@ -134,7 +194,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="../meu site/img/16F3ECA0-476B-4D1A-9B4D-FFB7B230DFB3.jpeg" class="card-img-top" alt="...">
+                <img src="img/zeus.jpeg" class="card-img-top" alt="...">
+                <p class="text-center">Zeus, na mitologia grega, é o rei dos deuses e governante do Olimpo. Filho dos titãs Cronos e Reia, escapou da voracidade de seu pai, que devorava seus filhos, e eventualmente liderou uma revolta contra os titãs, emergindo vitorioso e estabelecendo-se como soberano divino
+               </p>
 
               </div>
               <div class="modal-footer">
@@ -150,7 +212,7 @@
 
   <hr>
   <div class="col-11 m-auto">
-    <h2 class="text-center">meu titulo</h2>
+    <h2 class="text-center">Sobre</h2>
     <p class="text-center"> Originalmente, as histórias mitológicas eram transmitidas pela oralidade de geração em geração. Ao longo dos séculos, diferentes versões foram se configurando, e com o decorrer do tempo, 
       chegaram a constituir um corpus coerente da história e genealogia do panteão dos deuses e heróis gregos. Durante a Época Clássica e o Período Helenístico da história grega, estes relatos foram registrados em 
       textos escritos e formaram a base do que hoje é conhecido como literatura grega. Seu estudo é um assunto de interesse para várias disciplinas, da literatura e filosofia até a história, antropologia e 
@@ -160,18 +222,16 @@
 <hr>
   <br>
   <br>
-  <br> <br>
-  <br> <br>
-  <br> <br>
+
+
+  <footer style="background-color:#333;" class="page-footer font-small blue p-5">
+    <div>
+      
+    </div>
+  </footer>
 
 
 
-
-
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
